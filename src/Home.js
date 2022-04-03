@@ -6,11 +6,12 @@ const Home = (props) => {
         <br></br>
       <th >ID:</th>  <td>{props.info.id}</td>
       <br></br>
+    
       <th scope="row">Name:</th>
       <td>{props.info.full_name}</td>
       <br></br>
   
-      <th >Role ID: </th><br></br>
+      <th >Role ID: </th>
       <td >{props.info.RoleId}</td>
       <br></br>
 
